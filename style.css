@@ -113,15 +113,16 @@
 }
 
 .ex-11-icon:hover {
-  animation: rotate-circle-2 1s;
+  animation: rotate-circle-2 2s;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
-  animation-direction: reverse;
 }
 
 @keyframes rotate-circle-2 {
-  0% {transform:rotate(0deg);}
-  100% {transform:rotate(360deg);}
+ 0% {transform: rotate(0);}
+ 80% {transform: rotate(320deg);}
+ 100% {transform: rotate(0);}
+}
 }
 
 .ex-12-button, .ex-13-button {
